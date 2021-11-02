@@ -1,0 +1,134 @@
+.body {
+    background: rgb(146, 97, 97);
+}
+/*Aca empieza el grid*/
+
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 110px auto 110px;
+}
+/*Aca termina el grid*/
+/* Aca empieza header*/
+
+header.header {
+    background: black;
+    color: white;
+    width: auto;
+    grid-column:1/4;
+    display:grid;
+    grid-template-columns:20% 70% auto;
+
+}
+#navbarNav{
+    grid-column:2/4;
+}
+div#navbarNav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+a.item-list {
+    text-decoration: none;
+}
+
+ul{
+list-style-type: none;
+margin:0px;
+padding:0px;
+background: black;
+}
+li{
+font-size:18px;
+float:left;
+}
+
+.item-list{
+    color:white;
+    padding:5px;
+}
+
+.img-logo{
+    width: 110px;
+    height: 110px;
+}
+/* Aca termina header*/
+
+
+/* Aca empieza section*/
+
+section.section{
+    background: rgb(179, 151, 151);
+    color: white;
+    grid-column: 1 / 4;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: auto;
+}
+
+.container-slider{
+
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden; 
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    width: 400%;
+    height: 500px;
+    margin-left: -100%;
+
+}
+
+.slider__section{
+    width: 100%;
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255 , 255 ,255 ,0.7);
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn:hover{
+    background: #fff;
+}
+
+.slider__btn--left{
+    left: 10px;
+}
+.slider__btn--right{
+    right: 10px;
+}
+
+/* Aca termina section*/
+
+/* Aca empieza footer*/
+footer.footer{
+    background: rgb(5, 5, 5);
+    color: white;
+    grid-column: 1 / 4;
+    height: 110px;
+}
+/* Aca termina footer*/
