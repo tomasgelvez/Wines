@@ -29,6 +29,10 @@ div#navbarNav {
     align-content: center;
     justify-content: center;
 }
+ul.navbar-nav {
+    display: inline;
+    text-decoration: none;
+}
 a.item-list {
     text-decoration: none;
 }
