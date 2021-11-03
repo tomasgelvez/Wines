@@ -23,7 +23,7 @@ btnRight.addEventListener('click', function (){
     Next();
 });
 
-/* function Prev () {
+ function Prev () {
     let sliderSection = document.querySelectorAll(".slider__section");
     let sliderSectionLast = sliderSection[sliderSection.length -1];
     slider.style.marginLeft = "0";
@@ -37,7 +37,8 @@ btnRight.addEventListener('click', function (){
 };
 
 
-
 btnLeft.addEventListener('click', function (){
     Prev();
-}); */
+}); 
+
+
